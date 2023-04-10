@@ -1,10 +1,10 @@
 {
-    "name": "Tests",
+    "name": "PG0002.Tests",
     "rootNamespace": "PG0002.Tests",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Questions"
+        "PG0002.Questions"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
