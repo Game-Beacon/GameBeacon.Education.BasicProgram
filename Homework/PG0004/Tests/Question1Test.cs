@@ -70,6 +70,7 @@ namespace PG0004.Tests
             });
         }
 
+        [Test]
         public void TestImplicit()
         {
             Question1.Vector3 v3 = new Question1.Vector3(1, 2, 3);
@@ -78,6 +79,7 @@ namespace PG0004.Tests
             Assert.AreEqual(v3.y, v2.y);
         }
 
+        [Test]
         public void TestExplicit()
         {
             Question1.Vector2 v2 = new Question1.Vector2(1, 2);
