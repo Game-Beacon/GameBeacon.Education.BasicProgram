@@ -58,6 +58,10 @@ namespace PG0004.Questions
             /// <exception cref="ArgumentException">f is zero</exception>
             public static Vector2 operator /(Vector2 v, float f)
             {
+                if (Math.Abs(f) < kEpsilon)
+                {
+                    throw new ArgumentException("The absolute f must be greater than 1E-05f");
+                } 
                 throw new NotImplementedException();
             }
             #endregion
